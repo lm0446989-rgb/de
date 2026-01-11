@@ -81,7 +81,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(Images/uncheck.png);
+    background-image: url(uncheck.png);
     background-size: cover;
     background-position: center;
     top:12px;
@@ -93,7 +93,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image:url(Images/checked.png);
+    background-image:url(checked.png);
 }
 ul li span{
     position: absolute;
@@ -114,7 +114,7 @@ ul li span:hover{
 <body>
     <div class="container">
         <div class="todo-app">
-        <h2>To-Do List<img src="Images/To-Do List.png">                  </h2>
+        <h2>To-Do List<img src="To-Do List.png">                  </h2>
         <div class="row">
             <input type="text" id="input-box" placeholder="Add your text">
             <button onclick="addTask()">Add</button>
@@ -166,4 +166,5 @@ ul li span:hover{
         }
         showTask()</script>
 </body>
+
 </html>
